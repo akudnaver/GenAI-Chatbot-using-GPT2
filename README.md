@@ -28,7 +28,7 @@ This chatbot is designed to assist users by providing expert knowledge as fed by
 1. **Clone the repository**:
     ```sh
     git clone https://github.com/your-username/telecom-chatbot.git
-    cd telecom-chatbot
+    cd chatbot
     ```
 
 2. **Create a virtual environment and activate it**:
@@ -52,14 +52,16 @@ This chatbot is designed to assist users by providing expert knowledge as fed by
       ```sh
       python parse_pdf.py --input_file=input/your_pdf_file.pdf
       ```
+    Note:  Here you can modify the Code to parse argument through the CLI if you are using IDE like Visual Studio otherwise you can use the method to specify a filename at
+           the begining of the code and that's about it !!!
 
-3. **Train the Chatbot Model**:
+4. **Train the Chatbot Model**:
     - Train the GPT-2 model with the prepared data:
       ```sh
       python train_model.py --data_file=output/parsed_data.txt
       ```
 
-4. **Run the Chatbot**:
+5. **Run the Chatbot**:
     - Start the chatbot server:
       ```sh
       python app.py
@@ -72,6 +74,8 @@ To train the GPT-2 model, you need to follow these steps:
 
 1. **Prepare Training Data**:
     - The `parse_pdf.py` script extracts text from the input PDF and saves it as a plain text file.
+
+  Note: This is all take care in the Code, so just refer the code !!!
 
 2. **Train the GPT-2 Model**:
     - The `train_model.py` script uses the extracted text to fine-tune the GPT-2 model.
