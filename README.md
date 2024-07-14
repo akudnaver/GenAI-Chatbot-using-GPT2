@@ -1,6 +1,6 @@
 # Domain Knowledge Expert Chatbot
 
-Welcome to the Telecom Domain Knowledge Expert Chatbot project! This repository contains code and resources for creating a chatbot that acts as a domain knowledge expert. The chatbot is trained using a GPT-2 pre-trained model and is capable of understanding and responding to user queries based on the provided input PDF.
+Welcome to the Domain Knowledge Expert Chatbot project! This repository contains code and resources for creating a chatbot that acts as a domain knowledge expert. The chatbot is trained using a GPT-2 pre-trained model and is capable of understanding and responding to user queries based on the provided input PDF.
 
 ## Table of Contents
 - [Introduction](#introduction)
