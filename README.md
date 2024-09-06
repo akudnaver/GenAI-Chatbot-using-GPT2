@@ -27,7 +27,7 @@ This chatbot is designed to assist users by providing expert knowledge as fed by
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-username/telecom-chatbot.git
+    git clone https://github.com/akudnaver/telecom-chatbot.git
     cd chatbot
     ```
 
@@ -87,11 +87,3 @@ To interact with the chatbot, start the server by running the `app.py` script. T
 ## Contributing
 
 We welcome contributions to enhance the capabilities and features of the Telecom Domain Knowledge Expert Chatbot. If you have any suggestions or improvements, please feel free to submit a pull request or open an issue.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-Feel free to customize this README to better fit your project's specifics and needs.
